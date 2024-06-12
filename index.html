@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chocolate Hero Section</title>
+    <title>ChocoBliss</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -33,18 +36,19 @@
     </header>
 
     <section class="hero">
-        <div class="hero-background"></div>
+        <!-- <div class="hero-background"></div> -->
         <!-- <div class="chocolate-image">
       <img src="./assets/images/cho3.png" alt="Stacked Chocolate">
     </div> -->
         <div class="hero-content">
 
-            <h1 class="slide-text merriweather-black-italic">Chocolate
+            <h1 class="slide-text merriweather-black-italic img-flex">Chocolate
                 <span>Yummy</span>
-                <img id="cho3" class="slide-text" src="./assets/images/cho3.png" alt="Stacked Chocolate">
             </h1>
+            <span>
+                <img id="cho3" class="slide-text" src="./assets/images/cho3.png" alt="Stacked Chocolate">
 
-            <a href="#" class="read-more">Read More <span>&rarr;</span></a>
+                <a href="#" class="read-more">Read More <span>&rarr;</span></a>
         </div>
         <div class="drip-image">
             <img src="./assets/images/drip3.jpg" alt="Dripping Chocolate">
@@ -53,42 +57,130 @@
 
     <!-- about section  -->
     <section class="about layout_padding ">
-        <div class="container  ">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="detail-box">
-                        <div class="header">
-                            <h2 class="merriweather-black-italic">
-                                About Our Company
-                            </h2>
-                        </div>
-                        <p>
-                            Lorem Ipsum is that it has a more-or-less normal distribution of<br>
-                            letters, as opposed to
-                            using 'Content here, content here',<br>
-                            making it look like readable English. Many desktop
-                            publishing<br>
-                            packages and web pagend web page editors now use Lorem<br>
-                            Ipsum as their default
-                            model text, 
-                        </p> <a href="#" class="read-more">Read More <span>&rarr;</span></a>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="detail-box">
+                    <div class="header">
+                        <h2 class="merriweather-black-italic">
+                            About Our Company
+                        </h2>
+                    </div>
+                    <p class="poppins-regular">
+                        Lorem Ipsum is that it has a more-or-less normal distribution of<br>
+                        letters, as opposed to
+                        using 'Content here, content here',<br>
+                        making it look like readable English. Many desktop
+                        publishing<br>
+                        packages and web pagend web page editors now use Lorem<br>
+                        Ipsum as their default
+                        model text,
+                    </p>
+                    <a href="#" class="read-more">Read More <span>&rarr;</span></a>
 
-                    </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="img-box">
-                        <img src="./assets/images/cho2.jpg" alt="">
-                    </div>
+            </div>
+            <div class="col-md-6">
+                <div class="img-box">
+                    <img src="./assets/images/cho2.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
     <!-- end about section -->
+    <section class="product">
+        <h2 class="product-category merriweather-black-italic"> Our Products</h2>
+        <!-- <h3>Get started by choosing from one of our pre-built <br> page templates to showcase your properties</h3> -->
+        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/images/cho1.jpg" class="image-style" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Classic</h2>
+                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
+                        <br>templates to showcase your properties
+                    </p> -->
+                    <!-- <div class="property-meta">
+                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
+                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
+                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
+                    </div> -->
+                </div>
 
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/images/cho4.jpg" class="image-style" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Classic</h2>
+                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
+                        <br>templates to showcase your properties
+                    </p> -->
+                    <!-- <div class="property-meta">
+                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
+                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
+                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
+                    </div> -->
+                </div>
+
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/images/cho5.jpg" class="image-style" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Classic</h2>
+                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
+                        <br>templates to showcase your properties
+                    </p>
+                    <div class="property-meta">
+                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
+                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
+                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="./assets/images/cho4.jpg" class="image-style" alt="">
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Classic</h2>
+                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
+                        <br>templates to showcase your properties
+                    </p> -->
+                    <!-- <div class="property-meta">
+                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
+                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
+                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
+                    </div> -->
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    </div>
+
+
+    </div>
+
+    </section>
+
+    <!-- Products section end  -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
     <script src="./js/scripts.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 </body>
 
 </html>
