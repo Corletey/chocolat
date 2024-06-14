@@ -1,0 +1,79 @@
+.swiper-slide .avatar {
+    display: block;
+    width: 10%;
+    height: 30%;
+    border-radius: 50%;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-color: rgb(43, 42, 42);
+    border: 3px solid #A56D64;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#custsay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merriweather";
+    font-size: 30px;
+    line-height: 1.2;
+    color: #46200B;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    display: flex;
+    font-family: "Poppins-regular", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    letter-spacing: 37px;
+    color: black;
+    text-shadow: #222222 0em 0.1em 0.1em;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.review {
+    padding-top: 20px;
+}
+
+.review p {
+    font-family: "Poppins-regular", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.2;
+    color: black;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.review p i{
+    color: #003366;
+}
+
+.avatar {
+    display: block;
+    width: 10%;
+    height: 40%;
+    border-radius: 60%;
+    /* vertical-align: middle; */
+    justify-content: center;
+    /* align-items: center; */
+    object-fit: ;
+    border: 3px solid #A56D64;
+    margin-left: auto;
+    margin-right: auto;
+}

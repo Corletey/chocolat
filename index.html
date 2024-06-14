@@ -2,185 +2,407 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChocoBliss</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChocoBliss</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/swiper.css">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/testimonials.css">
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="nav-brand">
-                <a href="#" class="merriweather-black-italic">Choco<span>Bliss</span></a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Chocolates</a></li>
-                <li><a href="#">Testimonial</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-            <div class="nav-search">
-                <input type="text" placeholder="Search...">
-                <button><i class="fa fa-search"></i></button>
-            </div>
-            <div class="nav-user">
-                <a href="#"><i class="fa fa-user"></i></a>
-            </div>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="nav-brand">
+        <a href="#" class="merriweather-black-italic">Choco<span>Bliss</span></a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Chocolates</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      <div class="nav-search">
+        <input type="text" placeholder="Search...">
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="nav-user">
+        <a href="#"><i class="fa fa-user"></i></a>
+      </div>
+    </nav>
+  </header>
 
-    <section class="hero">
-        <!-- <div class="hero-background"></div> -->
-        <!-- <div class="chocolate-image">
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1 class="slide-text merriweather-black-italic img-flex">
+        <span> Chocolate <br> Yummy !!</span>
+      </h1>
+
+
+      <div class="drip-image">
+        <!-- <img src="./assets/images/cho3.png" alt="Stacked Chocolate"> -->
+        <!-- <img src="./assets/images/slider-img.png" alt="Dripping Chocolate"> -->
+      </div>
+    </div>
+    <!-- <div class="drip-image">
       <img src="./assets/images/cho3.png" alt="Stacked Chocolate">
+      <img src="./assets/images/slider-img.png" alt="Dripping Chocolate">
     </div> -->
-        <div class="hero-content">
+    <!-- <div class="hero-background">
+          <div>
+            <img src="./assets/images/cho3.png" alt="Stacked Chocolate" id="bg">
+            <img src="./assets/images/_ (1).jpeg" alt="" id="bgover">
+          </div>
+        </div> -->
+  </section>
 
-            <h1 class="slide-text merriweather-black-italic img-flex">Chocolate
-                <span>Yummy</span>
-            </h1>
-            <span>
-                <img id="cho3" class="slide-text" src="./assets/images/cho3.png" alt="Stacked Chocolate">
+  <!-- about section  -->
+  <section class="about">
 
-                <a href="#" class="read-more">Read More <span>&rarr;</span></a>
-        </div>
-        <div class="drip-image">
-            <img src="./assets/images/drip3.jpg" alt="Dripping Chocolate">
-        </div>
-    </section>
 
-    <!-- about section  -->
-    <section class="about layout_padding ">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="detail-box">
-                    <div class="header">
-                        <h2 class="merriweather-black-italic">
-                            About Our Company
-                        </h2>
-                    </div>
-                    <p class="poppins-regular">
-                        Lorem Ipsum is that it has a more-or-less normal distribution of<br>
-                        letters, as opposed to
-                        using 'Content here, content here',<br>
-                        making it look like readable English. Many desktop
-                        publishing<br>
-                        packages and web pagend web page editors now use Lorem<br>
-                        Ipsum as their default
-                        model text,
-                    </p>
-                    <a href="#" class="read-more">Read More <span>&rarr;</span></a>
-
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="img-box">
-                    <img src="./assets/images/cho2.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end about section -->
-    <section class="product">
-        <h2 class="product-category merriweather-black-italic"> Our Products</h2>
-        <!-- <h3>Get started by choosing from one of our pre-built <br> page templates to showcase your properties</h3> -->
-        <button class="pre-btn"><img src="images/arrow.png" alt=""></button>
-        <button class="nxt-btn"><img src="images/arrow.png" alt=""></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="./assets/images/cho1.jpg" class="image-style" alt="">
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Classic</h2>
-                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
-                        <br>templates to showcase your properties
-                    </p> -->
-                    <!-- <div class="property-meta">
-                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
-                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
-                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
-                    </div> -->
-                </div>
-
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="./assets/images/cho4.jpg" class="image-style" alt="">
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Classic</h2>
-                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
-                        <br>templates to showcase your properties
-                    </p> -->
-                    <!-- <div class="property-meta">
-                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
-                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
-                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
-                    </div> -->
-                </div>
-
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="./assets/images/cho5.jpg" class="image-style" alt="">
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Classic</h2>
-                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
-                        <br>templates to showcase your properties
-                    </p>
-                    <div class="property-meta">
-                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
-                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
-                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
-                    </div> -->
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="./assets/images/cho4.jpg" class="image-style" alt="">
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Classic</h2>
-                    <!-- <p class="product-short-description">Get started by choosing from one of our pre-built page
-                        <br>templates to showcase your properties
-                    </p> -->
-                    <!-- <div class="property-meta">
-                        <span> <i class="fa-solid fa-bed"></i> 2 Bedroom</span>
-                        <span> <i class="fa-solid fa-bath"></i> 2 Bathroom</span> <br>
-                        <span> <i class="fa-regular fa-building"></i>1050 Sq Ft</span>
-                    </div> -->
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
+    <div class="detail-box">
+      <div class="header">
+        <h2 class="merriweather-black-italic">
+          About Our Company
+        </h2>
+      </div>
+      <p class="poppins-regular">
+        Lorem Ipsum is that it has a more-or-less normal distribution of<br>
+        letters, as opposed to
+        using 'Content here, content here',<br>
+        making it look like readable English. Many desktop
+        publishing<br>
+        packages and web pagend web page editors now use Lorem<br>
+        Ipsum as their default
+        model text,
+      </p>
+      <a href="#" class="read-more">Read More <span>&rarr;</span></a>
 
     </div>
 
-
+    <div class="img-box">
+      <img src="./assets/images/pexels-sylwester-ficek-154797634-12430678.jpg" alt="">
     </div>
 
-    </section>
+  </section>
+  <!-- end about section -->
 
-    <!-- Products section end  -->
+  <!-- Products section start  -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- Products section end  -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
-    <script src="./js/scripts.js"></script>
-    <script src="./js/slider.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <!-- offer section -->
+  <section class="offer-section">
+    <div class="offer-container">
+      <div class="offer-text">
+        <h2>Offers on chocolates</h2>
+        <h3>Get 50% Offer any Chocolate items</h3>
+        <a href="#" class="btn">BUY NOW</a>
+      </div>
+      <div class="offer-image">
+        <img src="./assets/images/offer-img.png" alt="Chocolate Offer">
+        <a href="#" class="see-more">See More <span>&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+  <!-- end offer section -->
+<!--  -->
+  <!-- dday section -->
+  <section class="ddaycl">
+    <div class="w-full">
+      <span></span>
+      <div class="h-full">
+        <img src="./assets/images/pexels-markusspiske-126790.jpg" alt="Bday">
+      </div>
+    </div>
+    <div class="z-full">
+      <h2>Father's Day Chocolate Box</h2>
+
+      <p>ChocoBliss can help you find the perfect gift...</p>
+
+
+      <a href="#" class="giftbtn">Discover Gifts</a>
+
+    </div>
+  </section>
+
+
+  <section id="owners">
+    <div class="own">
+
+      <div class="owner-1">
+
+        <div class="owner-text">
+          <h1>CEO OF CHOCOBLISS</h1>
+          <p>Camey is the CEO of Chocobliss, a premier gourmet chocolate company. With over 20 years in the culinary
+            industry, John has transformed ChocoDelights into a renowned brand known for its high-quality, ethically
+            sourced chocolates.</p>
+        </div>
+        <div class="owner-img">
+          <img src="./assets/images/pexels-stefanstefancik-91227.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- contact section -->
+
+  <section class="contact_section layout_padding">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
+          <div class="form_container">
+            <div class="heading_container">
+              <h2>
+                Contact Us
+              </h2>
+            </div>
+            <form action="">
+              <input type="text" placeholder="Full Name " required />
+              <input type="text" placeholder="Phone number" required />
+              <input type="email" placeholder="Email" required />
+              <input type="text" class="message-box" placeholder="Message" />
+              <div class="d-flex ">
+                <button>
+                  SEND NOW
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6  px-0">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+  <!-- testimonials section start -->
+  <section class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div>
+          <span id="custsay">Customers Say</span>
+          <h3>Review</h3>
+        </div>
+        <img src="./assets/images/img7.jpeg" alt="Avatar" class="avatar" />
+        <div class="review">
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Aliquam, illo sit. Architecto, aliquid!
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div>
+          <span id="custsay">Customers Say</span>
+          <h3>Review</h3>
+        </div>
+        <img src="./assets/images/img6.jpeg" alt="Avatar" class="avatar" />
+        <div class="review">
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Aliquam, illo sit. Architecto, aliquid!
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+          </p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div>
+          <span id="custsay">Customer</span>
+          <h3>Review</h3>
+        </div>
+        <img src="./assets/images/img5.jpeg" alt="Avatar" class="avatar" />
+        <div class="review">
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Aliquam, illo sit. Architecto, aliquid!
+            <p>
+              <i class=></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </section>
+  <!-- testimonials section end -->
+
+  <!-- Info Section -->
+  <section class="info-section layout-padding2">
+    <div class="container">
+      <div class="row info-form-social-row">
+        <div class="col-md-8 col-lg-9">
+          <div class="info-form">
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                <i class="fa fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="social-box">
+          <div class="social-box"><img src="./assets/images/facebook (1).png" alt="" class="face"></div>
+          <div class="social-box"><img src="./assets/images/twitter.png" alt="" class="face"></div>
+          <div class="social-box"><img src="./assets/images/linkedin.png" alt="" class="face"></div>
+        </div>
+      </div>
+      <div class="row info-main-row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info-links">
+            <h4>Menu</h4>
+            <div class="info-links-menu">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="chocolate.html">Chocolates</a>
+              <a href="testimonial.html">Testimonial</a>
+              <a href="contact.html">Contact us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info-links">
+            <h4>Instagram</h4>
+            <div class="img-box">
+              <div><img src="./assets/images/_ (1).jpeg" alt=""></div>
+              <div>
+                <p>long established fact <br> that a reader</p>
+              </div>
+            </div>
+            <div class="img-box">
+              <div><img src="./assets/images/2.jpeg" alt=""></div>
+              <div>
+                <p>long established fact <br> that a reader</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info-links">
+            <h4>Company</h4>
+            <p class="mb-0">
+              when looking at its layout.<br>
+              The point of using Lorem Ipsum<br>
+              is that it has a more-or-less normal<br>
+              distribution of letters, as opposed to
+            </p>
+          </div>
+        </div>
+        <div class="info-links">
+          <h4>Contact Us</h4>
+          <div class="info-contact">
+            <a href="">
+              <div class="icon"> <i class="fa fa-map-marker"></i></div>
+              <span>Location</span>
+            </a>
+            <a href="">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <span>Call +01 1234567890</span>
+            </a>
+            <a href="">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <span>demo@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer Section -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="col-md-11 col-lg-8 mx-auto">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By M
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/scripts.js"></script>
+  <script src="./js/slider.js"></script>
 
 </body>
+
+
+
+
+
 
 </html>
