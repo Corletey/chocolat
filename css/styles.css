@@ -221,7 +221,7 @@ header h2 {
 }
 
 .about .detail-box p {
-  color: #6c6c6c;
+  color: #000000;
 }
 
 .about .detail-box a {
@@ -286,193 +286,95 @@ p {
   line-height: 1.5;
   margin: 0 0 1rem 0;
 }
-
-/* Swiper CSS */
-.product {
-  height: 100vh;
-  /* width: 100vw; */
-}
-
-.product-category {
-  text-align: center;
-  font-family: "Jost", sans-serif;
-  font-size: 38px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-bottom: 12px;
-  text-transform: capitalize;
-}
-
-h3 {
-  text-align: center;
-  color: #656565;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5;
-  padding: 0 50px;
-}
-
-.product-container {
-  padding: 0 10vw;
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  margin-top: 100px;
-}
-
-.product-container::-webkit-scrollbar {
-  display: none;
-}
-
-.product-card {
-  flex: 0 0 auto;
-  width: 250px;
-  height: 400px;
-  margin-right: 40px;
-}
-
-.product-image {
+/* video section  */
+#video-sec {
+  width: 98.7vw;
+  height: 60vh;
   position: relative;
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
+  z-index: -1;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
-.image-style {
-  width: 100%;
-  height: 80%;
+video {
+  width: inherit;
+  height: inherit;
   object-fit: cover;
+  margin: 0;
 }
 
-.product-card:hover .card-btn {
-  opacity: 1;
-}
-
-.card-btn:hover {
-  background: #ff7d7d;
-  color: #fff;
-}
-
-.product-info {
-  width: 100%;
-  height: 70px;
-}
-
-.product-brand {
-  text-transform: uppercase;
-  margin-top: -12px;
-}
-
-.pre-btn,
-.nxt-btn {
-  border: none;
-  width: 10vw;
-  height: 80%;
+#video-overlay {
   position: absolute;
+  top: 0;
+  left: 0;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  width: inherit;
+  height: inherit;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-  cursor: pointer;
+  letter-spacing: 14px;
+  margin: 0;
+}
+.vds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", cursive;
+  font-size: 40px;
+  line-height: 1.2;
+  text-shadow: #222222 0.1em 0.1em 0.1em;
+  color: #FEEFE3;
+  width: 100%;
+  margin-bottom: 25px
 }
 
-.pre-btn {
-  left: 0;
-  transform: rotate(180deg);
+.swimg {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* object-fit: contain; */
+  height: 60%;
+  width: 50%;
+  margin: 0;
 }
-
-.nxt-btn {
-  right: 0;
-}
-
-.pre-btn img,
-.nxt-btn img {
-  opacity: 0.2;
-}
-
-.pre-btn:hover img,
-.nxt-btn:hover img {
-  opacity: 1;
-}
-
-/* Product Showcase Section */
-.product-showcase {
-  padding: 4rem 0;
-  background-color: #f8f8f8;
-}
-
-.product-showcase h2 {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: #333;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.product-item {
-  background-color: #fff;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 1rem;
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.product-item:hover {
-  transform: scale(1.05);
+.img-slibox {
+  object-fit: contain;
+  height: 50vh;
+  width: 40vw;
 }
 
 
-.product-item img {
-  max-width: 100%;
-  height: 50%;
-  margin-bottom: 1rem;
-}
-
-.product-item h3 {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-.product-item p {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background-color: #8b4513;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #6b3510;
-}
 
 /* Offer section  */
 .offer-section {
   border: 2px solid #8b4513;
   padding: 2rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
   background-color: #fff;
 }
-
+.pdate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #46200b;
+}
 .offer-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
+  padding-top: 10px;
+  margin-top: 10px;
   
 }
 
@@ -659,7 +561,10 @@ h3 {
   transition-property: background-color, color;
 }
 /* dday section end */
-
+.owner-1 {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Info Section */
 .info-section {
