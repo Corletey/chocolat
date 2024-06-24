@@ -9,13 +9,9 @@
   <link rel="stylesheet" href="./css/swiper.css">
   <link rel="stylesheet" href="./css/grid.css">
   <link rel="stylesheet" href="./css/testimonials.css">
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <link
@@ -37,7 +33,7 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
       <div class="nav-search">
-        <input type="text" placeholder="Search...">
+        <!-- <input type="text" placeholder="Search..."> -->
         <button><i class="fa fa-search"></i></button>
       </div>
       <div class="nav-user">
@@ -115,8 +111,8 @@
     <div id="video-overlay">
       <div class="vds">
         <span id="poppins-regular">ChocoBliss</span>
-      </device-widthdiv>
-    </div>
+        </device-widthdiv>
+      </div>
   </section>
   <!-- video section  end-->
 
@@ -126,20 +122,20 @@
 
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-          <img class="swimg" src="./assets/images/g1.jpg" alt="">
-      
+        <img class="swimg" src="./assets/images/g1.jpg" alt="">
+
       </div>
       <div class="swiper-slide">
-          <img class="swimg" src="./assets/images/g11.jpeg" alt="">
-        </div>
+        <img class="swimg" src="./assets/images/g11.jpeg" alt="">
+      </div>
       <div class="swiper-slide">
-          <img class="swimg" src="./assets/images/g12.jpeg" alt="">
-        
+        <img class="swimg" src="./assets/images/g12.jpeg" alt="">
+
       </div>
       <div class="swiper-slide">
         <img class="swimg" src="./assets/images/g13.jpeg" alt="">
       </div>
-     
+
 
     </div>
     <div class="swiper-button-next"></div>
@@ -152,35 +148,27 @@
   <!-- offer section -->
   <section class="offer-section">
     <div class="offer-container">
-      <div class="offer-text">
-        <h2>Offers on chocolates</h2>
-        <h3>The Best</h3>
-        <a href="#" class="btn">BUY NOW</a>
-      </div>
+      <h2>Offers on chocolates</h2>
+      <p>Get 5% Offer</p>
+      <p>any Chocolate items</p>
+      <button class="btn">BUY NOW</button>
       <div class="offer-image">
         <img src="./assets/images/offer-img.png" alt="Chocolate Offer">
-        <a href="#" class="see-more">See More <span>&rarr;</span></a>
       </div>
+      <a href="#" class="see-more">See More <span>&rarr;</span></a>
     </div>
   </section>
   <!-- end offer section -->
-<!--  -->
+  <!--  -->
   <!-- dday section -->
-  <section class="ddaycl">
-    <div class="w-full">
-      <span></span>
-      <div class="h-full">
-        <img src="./assets/images/pexels-markusspiske-126790.jpg" alt="Bday">
-      </div>
+  <section class="teacher-gift">
+    <div class="gift-image">
+      <img src="./assets/images/pexels-markusspiske-126790.jpg" alt="Bday">
     </div>
-    <div class="z-full">
-      <h2>Father's Day Chocolate Box</h2>
-
+    <div class="gift-text">
+      <h2>THANK YOU TEACHER CHOCOLATE GIFT IDEAS</h2>
       <p>ChocoBliss can help you find the perfect gift...</p>
-
-
-      <a href="#" class="giftbtn">Discover Gifts</a>
-
+      <a href="#" class="gift-btn">DISCOVER GIFTS</a>
     </div>
   </section>
 
@@ -206,54 +194,48 @@
   </section>
 
   <!-- contact section -->
-
   <section class="contact_section layout_padding">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
-          <div class="form_container">
-            <div class="heading_container">
-              <h2>
-                Contact Us
-              </h2>
+        <div class="row">
+            <div class="col-md-5 col-lg-4 offset-md-1 offset-lg-2">
+                <div class="form_container">
+                    <div class="heading_container">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Full Name " required />
+                        <input type="text" placeholder="Phone number" required />
+                        <input type="email" placeholder="Email" required />
+                        <input type="text" class="message-box" placeholder="Message" />
+                        <div class="d-flex ">
+                            <button>SEND NOW</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <form action="">
-              <input type="text" placeholder="Full Name " required />
-              <input type="text" placeholder="Phone number" required />
-              <input type="email" placeholder="Email" required />
-              <input type="text" class="message-box" placeholder="Message" />
-              <div class="d-flex ">
-                <button>
-                  SEND NOW
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6  px-0">
-          <div class="map_container">
-            <div class="map">
-              <div id="googleMap">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+            <div class="col-md-6 px-0">
+                <div class="map_container">
+                    <div class="map">
+                        <div id="googleMap">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2990.274257380938!2d-70.56068388481569!3d41.45496659976631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e52963ac45bbcb%3A0xf05e8d125e82af10!2sDos%20Mas!5e0!3m2!1sen!2sus!4v1671220374408!5m2!1sen!2sus"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
-
-  <!-- end contact section -->
+</section>
+<!-- end contact section -->
 
   <!-- testimonials section start -->
   <section class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div>
-          <span id="custsay">Customers Say</span>
+          <span id="custsay">Customer</span>
           <h3>Review</h3>
         </div>
         <img src="./assets/images/img7.jpeg" alt="Avatar" class="avatar" />
@@ -262,19 +244,19 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
             Aliquam, illo sit. Architecto, aliquid!
-            <p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
           </p>
         </div>
       </div>
       <div class="swiper-slide">
         <div>
-          <span id="custsay">Customers Say</span>
+          <span id="custsay">Customer</span>
           <h3>Review</h3>
         </div>
         <img src="./assets/images/img6.jpeg" alt="Avatar" class="avatar" />
@@ -283,13 +265,13 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
             Aliquam, illo sit. Architecto, aliquid!
-            <p>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </p>
+          <p>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </p>
           </p>
         </div>
       </div>
@@ -304,15 +286,15 @@
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
             Aliquam, illo sit. Architecto, aliquid!
-            <p>
-              <i class=></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-            </p>
+          <p>
+            <i class=></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
           </p>
-          
+          </p>
+
         </div>
       </div>
     </div>
@@ -337,7 +319,7 @@
           </div>
         </div>
         <div class="social-box">
-          <div class="social-box"><img src="./assets/images/facebook (1).png" alt="" class="face"></div>
+          <div class="social-box"><img src="./assets/images/facebook (2).png" alt="" class="face"></div>
           <div class="social-box"><img src="./assets/images/twitter.png" alt="" class="face"></div>
           <div class="social-box"><img src="./assets/images/linkedin.png" alt="" class="face"></div>
         </div>
